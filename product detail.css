@@ -153,6 +153,74 @@ h1, h2 {
   background-color: #A83C18;
 }
 
+/*--- Product Description ---*/
+.product-description {
+  background-color: #F3A738;
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 900px;
+  margin: 20px auto 0;
+}
+
+.product-description h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.product-description p {
+  font-family: 'Roboto', sans-serif;
+  color: #7B2102;
+  font-size: 0.95rem;
+}
+
+/* Responsive layout */
+@media (min-width: 768px) {
+  .product-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch; /* Make boxes same height */
+    gap: 40px;
+  }
+
+  .product-image-container {
+    width: 50%;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center;
+  }
+
+  .product-image {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .product-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .product-info-inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .grind-options {
+    justify-content: flex-start;
+  }
+  
+  .quantity-section {
+    margin-top: auto; /* Push to bottom */
+    text-align: center;
+  }
+  
+  .price-size {
+    text-align: left;
+  }
+}
 /*--- Search Overlay ---*/
 .overlay {
   position: fixed;
