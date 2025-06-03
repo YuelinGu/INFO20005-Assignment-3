@@ -1,3 +1,49 @@
+/*-- Page Establish --*/
+:root {
+  --beige: #FFF6DC;
+  --tan: #FFEBC2;
+  --orange: #CA4B21;
+  --brown: #7B2102;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: var(--beige);
+}
+
+h1, h2, h3, .order-label {
+  font-family: 'EB Garamond', serif;
+  color: var(--brown);
+}
+
+/* === Navigation Bar === */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--beige);
+  padding: 12px 24px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-icons {
+  display: flex;
+  gap: 8px;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  font-size: 26px;
+  color: var(--brown);
+  cursor: pointer;
+}
+
 /*-- Search overlay --*/
 .overlay {
   position: fixed;
