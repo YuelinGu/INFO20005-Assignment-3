@@ -314,3 +314,70 @@ h1, h2, .hero-right h1, .badge, .cta {
   }
 }
 
+
+/*=== Product Header ===*/
+.product-header {
+  max-width: 1200px;
+  margin: 0 auto 30px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-heading {
+  text-align: center;
+}
+
+.product-filter {
+  text-align: left;
+}
+
+.product-header h2 {
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
+  color: #7B2102; 
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.product-header p {
+  font-family: 'Roboto', sans-serif;
+  color: #9C3B1A;
+  margin-bottom: 16px;
+}
+
+.sort-dropdown {
+  padding: 8px 12px;
+  font-size: 0.8rem;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #7B2102;
+  border-radius: 6px;
+  background-color: white;
+  color: #7B2102;
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='%237B2102' height='16' viewBox='0 0 24 24' width='16' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px;
+}
+
+.home-product-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* mobile default */
+  gap: 40px;
+  justify-items: center;
+  padding: 0 10px;
+}
+
+@media (min-width: 600px) {
+  .home-product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .home-product-grid {
+    grid-template-columns: repeat(3, 1fr); /* for Surface Pro 7 and larger */
+  }
+}
