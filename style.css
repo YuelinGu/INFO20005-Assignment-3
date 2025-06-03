@@ -46,6 +46,58 @@ h1, h2, .hero-right h1, .badge, .cta {
   transform: scale(0.92); 
   background-color: rgba(123, 32, 2, 0.1)
 }
+
+/* === Hero Section === */
+.hero {
+  display: flex; 
+  height: 300px; 
+  background-color: #F3A738;
+}
+
+.hero-left {
+  flex: 1; 
+  background-image: url("Images/Coffee Beans.png");
+  background-size: cover;
+  background-position: center; 
+}
+
+.hero-right {
+  flex: 1;
+  background-color: #F3A738;
+  color: #7B2102;
+  padding: 40px 20px; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-right h1 {
+  font-family: 'EB Garamond', serif; 
+  font-size: 2rem; 
+  font-weight: 700; 
+  margin: 0 0 10px; 
+  white-space: normal; 
+}
+
+.hero-right p {
+  font-family: 'Roboto', sans-serif; 
+  margin: 0 0 20px; 
+  color: #7B2102; 
+}
+
+.cta.bold-shadow {
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
+  background-color: #FFF6DC;
+  color: #CA4B21; 
+  padding: 12px 24px; 
+  border: none;
+  border-radius: 12px;
+  box-shadow: 3px 4px 0px rgba(0,0,0,0.2);
+  cursor: pointer;
+  width: fit-content;
+}
+
 /* === Search Overlay === */
 .overlay {
   position: fixed;
