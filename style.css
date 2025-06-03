@@ -155,6 +155,91 @@ h1, h2, .hero-right h1, .badge, .cta {
   margin-bottom: 0;
 }
 
+/* Buy Button */
+.buy {
+  background: transparent; 
+  border: 2px solid #CA4B21;
+  color: #CA4B21;
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
+  padding: 8px 18px;
+  margin-top: 10px; 
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.buy:hover {
+  background-color: #F3A738;
+  color: #7B2102;
+}
+
+/* === Customer Reviews === */
+.review-scroll {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 10px 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.review-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.review-card {
+  min-width: 280px;
+  background-color: #FFEBC2;
+  border-radius: 12px;
+  padding: 20px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.reviews {
+  padding: 40px 20px; 
+  background-color: #F3A738;
+  text-align: center;
+  max-width: 100%;
+}
+
+.reviews h2 {
+  font-family: 'EB Garamond', serif;
+  font-size: 2rem;
+  color: #9C3B1A;
+  margin-bottom: 8px;
+}
+
+.reviews p {
+  font-family: 'Roboto', sans-serif;
+  color: #9C3B1A;
+  margin-bottom: 32px;
+}
+
+.review-grid {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.review-name {
+  font-weight: bold;
+  color: #7B2102;
+  margin-bottom: 10px;
+}
+
+.review-text {
+  color: #CA4B21;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
 
 /* === Search Overlay === */
 .overlay {
