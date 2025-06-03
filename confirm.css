@@ -1,0 +1,92 @@
+/* Establishment */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #FFF6DC;
+}
+
+h1, h2 {
+  font-family: 'EB Garamond', serif;
+  color: #7B2102;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: #FFF6DC;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: #7B2002;
+  cursor: pointer;
+}
+
+/*Confirmation messages*/
+.confirmation-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.confirmation-title {
+  font-family: 'EB Garamond', serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #7B2102;
+  line-height: 1.3;
+}
+
+.confirmation-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #CA4B21;
+  margin-top: 12px;
+}
+
+/* Search overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.search-box {
+  background: #FFF6DC;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.search-box input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  width: 250px;
+}
+
+#closeSearch {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
