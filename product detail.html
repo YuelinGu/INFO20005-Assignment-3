@@ -88,5 +88,35 @@
   
     <p>Roasted weekly in small batches to preserve freshness and nuance, Product One is for those who seek more than caffeine — it's a brew rooted in <strong>place, people, and precision</strong>.</p>
     </section>
+
+    <!--Quantity Selector-->
+    <script>
+        document.querySelectorAll('.quantity-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                const display = button.parentElement.querySelector('.quantity-display');
+                let quantity = parseInt(display.textContent);
+        
+                if(button.classList.contains('plus')) {
+                quantity = Math.min(quantity + 1, 10);
+                } else if(button.classList.contains('minus')) {
+                quantity = Math.max(quantity - 1, 1);
+                }
+        
+                display.textContent = quantity;
+            });
+        });
+    
+    // Grind option selection
+        document.querySelectorAll('.grind-option').forEach(option => {
+            option.addEventListener('click', () => {
+                option.parentElement.querySelectorAll('.grind-option').forEach(btn => {
+                    btn.classList.remove('selected');
+                });
+                option.classList.add('selected');
+            });
+        });
+    </script>
+    <!--Search-->
+    <script src="script.js"></script>
 </body>
 </html>
