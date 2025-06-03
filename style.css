@@ -381,3 +381,46 @@ h1, h2, .hero-right h1, .badge, .cta {
     grid-template-columns: repeat(3, 1fr); /* for Surface Pro 7 and larger */
   }
 }
+
+/*=== Products ===*/
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Mobile default */
+  gap: 40px;
+  justify-items: center;
+  padding: 0 5px;
+}
+
+.product {
+  width: 100%;
+  max-width: 220px;
+  text-align: center;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+
+.product img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  margin: 4px 0;
+  font-size: 0.9rem;
+  color: #7B2102;
+}
+
+@media (min-width: 600px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (min-width: 1024px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
