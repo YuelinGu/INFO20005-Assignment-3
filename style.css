@@ -1,3 +1,16 @@
+/* === Homepage === */
+/*Typeface Establishment*/
+body {
+  font-family: 'Roboto', sans-serif; 
+  margin: 0;
+  padding: 0;
+  background-color: #FFF6DC;
+}
+
+h1, h2, .hero-right h1, .badge, .cta {
+  font-family: 'EB Garamond', serif; 
+  font-weight: 700;
+}
 /* === Search Overlay === */
 .overlay {
   position: fixed;
