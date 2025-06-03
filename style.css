@@ -11,6 +11,41 @@ h1, h2, .hero-right h1, .badge, .cta {
   font-family: 'EB Garamond', serif; 
   font-weight: 700;
 }
+
+.brand-name {
+  display: block; 
+  text-indent: 10px;
+}
+
+/* === NavBar === */
+.navbar {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFF6DC;
+  padding: 12px 24px; 
+}
+
+.nav-icons {
+  display: flex;
+  gap: 5px;
+}
+
+.icon-button {
+  background: none; 
+  border: none;
+  font-size: 30px; 
+  color: #7B2002; 
+  cursor: pointer; 
+  padding: 8px;
+  transition: transform 0.1s ease, background-color 0.2s ease; 
+  border-radius: 6px;
+}
+
+.icon-button:active {
+  transform: scale(0.92); 
+  background-color: rgba(123, 32, 2, 0.1)
+}
 /* === Search Overlay === */
 .overlay {
   position: fixed;
