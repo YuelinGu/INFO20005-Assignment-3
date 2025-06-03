@@ -1,4 +1,4 @@
-/*-- Page Establish --*/
+/*=== Establishment===*/
 :root {
   --beige: #FFF6DC;
   --tan: #FFEBC2;
@@ -21,7 +21,7 @@ h1, h2, h3, .order-label {
   color: var(--brown);
 }
 
-/* === Navigation Bar === */
+/* === Nav Bar === */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -44,7 +44,7 @@ h1, h2, h3, .order-label {
   cursor: pointer;
 }
 
-/*-- Search overlay --*/
+/* === Search Overlay === */
 .overlay {
   position: fixed;
   top: 0; left: 0;
@@ -74,7 +74,7 @@ h1, h2, h3, .order-label {
   width: 250px;
 }
 
-/*== Forms ==*/
+/* === Checkout Total === */
 .checkout-container {
   padding: 20px;
   max-width: 600px;
@@ -139,6 +139,7 @@ h1, h2, h3, .order-label {
   z-index: -1;
 }
 
+/* === Checkout Form === */
 .checkout-form input,
 .checkout-form select {
   width: 100%;
