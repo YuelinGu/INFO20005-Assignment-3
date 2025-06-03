@@ -73,3 +73,111 @@ h1, h2, h3, .order-label {
   padding: 10px;
   width: 250px;
 }
+
+/*== Forms ==*/
+.checkout-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.checkout-top {
+  background-color: #F3A738;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  font-weight: 700;
+  font-family: 'EB Garamond', serif;
+}
+
+.checkout-subtitle {
+  text-align: center;
+  color: #CA4B21;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.express-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 16px;
+}
+
+.pay-btn {
+  background-color: #F3A738;
+  border: 1px solid var(--brown);
+  color: var(--brown);
+  padding: 12px;
+  flex: 1;
+  margin: 4px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.divider {
+  text-align: center;
+  margin: 12px 0;
+  position: relative;
+}
+
+.divider span {
+  background: var(--beige);
+  padding: 0 12px;
+  color: #999;
+}
+
+.divider::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: #999;
+  z-index: -1;
+}
+
+.checkout-form input,
+.checkout-form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid var(--brown);
+  border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.two-columns {
+  display: flex;
+  gap: 12px;
+}
+
+.two-columns input {
+  flex: 1;
+}
+
+.three-columns {
+  display: flex;
+  gap: 12px;
+}
+
+.three-columns input {
+  flex: 1;
+}
+
+.final-pay-btn {
+  background-color: var(--orange);
+  color: white;
+  width: 100%;
+  padding: 14px;
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  box-shadow: 3px 4px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
