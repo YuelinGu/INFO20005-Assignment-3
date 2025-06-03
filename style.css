@@ -241,6 +241,30 @@ h1, h2, .hero-right h1, .badge, .cta {
   line-height: 1.4;
 }
 
+/* === Footer === */
+.site-footer {
+  background-color: #7B2102;
+  color: #FFEBC2;
+  padding: 30px 20px; 
+}
+
+.footer-heading {
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+  color: #FFEBC2;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.95rem;
+  color: #FFEBC2;
+}
 /* === Search Overlay === */
 .overlay {
   position: fixed;
