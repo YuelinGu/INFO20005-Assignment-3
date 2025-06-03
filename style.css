@@ -305,3 +305,11 @@ h1, h2, .hero-right h1, .badge, .cta {
 .hidden {
   display: none;
 }
+
+/*=== Responsive Approach ===*/
+@media (min-width: 1024px) {
+  .hero-right h1 {
+    font-size: 3rem;
+    white-space: nowrap;
+  }
+}
