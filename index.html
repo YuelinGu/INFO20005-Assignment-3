@@ -7,13 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<!--Top Bar (stays same for everypage)-->
 <body style="background-color: #FFF6DC">
     <header class="navbar">
-        <button class="menu-toggle" id="menuToggle">&#9776;</button>
-        <nav class="nav-icons">
-            <span class="icon" id="searchIcon">&#128269;</span>
-            <a href="#" class="icon">&#128722;</a>
-        </nav>
+    <button class="menu-toggle" id="menuToggle">&#9776;</button> <!--Hamburger-->
+    <nav class="nav-icons">
+        <span class="icon" id="searchIcon">&#128269;</span> <!--Search-->
+        <span class="icon-button" onclick="window.location.href='cart.html'">&#128722;</span> <!--Cart-->
+    </nav>
     </header>
+
+<!--Search Function-->
+    <div id="searchOverlay" class="overlay hidden">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search products..." />
+            <button id="closeSearch">✖</button>
+        </div>
+    </div>
 </body>
 </html>
