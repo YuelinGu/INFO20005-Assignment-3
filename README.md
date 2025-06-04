@@ -27,9 +27,9 @@ Access the deployed site here:
 
 ## Tools Used
 
-- HTML5  
-- CSS3 (Media Queries, Flexbox, Grid)  
-- JavaScript (DOM Manipulation, Event Handling)
+- HTML
+- CSS
+- JavaScript 
 
 ---
 
