@@ -82,7 +82,7 @@ h1, h2, .hero-right h1, .badge, .cta {
 .hero-right p {
   font-family: 'Roboto', sans-serif; 
   margin: 0 0 20px; 
-  color: #7B2102; 
+  color: #9C3B1A; 
 }
 
 .cta.bold-shadow {
@@ -316,6 +316,11 @@ h1, h2, .hero-right h1, .badge, .cta {
 
 
 /*=== Product Header ===*/
+.product-page {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #FFEBC2;
+}
 .product-header {
   max-width: 1200px;
   margin: 0 auto 30px;
